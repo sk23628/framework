@@ -14,18 +14,19 @@ import com.facebook.drawee.view.SimpleDraweeView
 
 class MatchesCardRecyclerViewAdapter internal constructor(
         context: Context?, matchesCardInterface: MatchesCardInterface
-) : RecyclerView.Adapter<MatchesCardRecyclerViewAdapter.WordViewHolder>() {
+) : RecyclerView.Adapter<MatchesCardRecyclerViewAdapter.RandomUserViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
-    private var mResults = emptyList<Result>() // Cached copy of words
+    private var mResults = emptyList<Result>() // Cached copy of results
     private var mMatchesCardInterface = matchesCardInterface
 
-    inner class WordViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    inner class RandomUserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val user_name: TextView = itemView.findViewById(R.id.user_name)
         val user_age: TextView = itemView.findViewById(R.id.user_age)
         val mSimpleDraweeView: SimpleDraweeView = itemView.findViewById(R.id.image_view_profile_pic)
         val txtAccept: TextView = itemView.findViewById(R.id.textView)
         val txtDecline: TextView = itemView.findViewById(R.id.textView2)
+        val txtCity: TextView = itemView.findViewById(R.id.user_location)
 
         fun bind(randomUser : Result){
             if(randomUser.userStatus != "available"){
@@ -36,21 +37,27 @@ class MatchesCardRecyclerViewAdapter internal constructor(
                     txtDecline.text = "Member Declined"
                     txtAccept.visibility = View.GONE
                 }
+            } else if(randomUser.userStatus == "available"){
+                txtAccept.visibility = View.VISIBLE
+                txtAccept.text = "Accept"
+                txtDecline.visibility = View.VISIBLE
+                txtDecline.text = "Decline"
             }
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WordViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RandomUserViewHolder {
         val itemView = inflater.inflate(R.layout.matches_card_view_item, parent, false)
-        return WordViewHolder(itemView)
+        return RandomUserViewHolder(itemView)
     }
 
-    override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: RandomUserViewHolder, position: Int) {
         val current = mResults[position]
         holder.bind(current)
         holder.user_name.text = current.name.first + " " +current.name.last
-        holder.user_age.text = current.dob.age.toString()
+        holder.user_age.text = current.dob.age.toString()+" Yrs."
         holder.mSimpleDraweeView.setImageURI(current.picture.large)
+        holder.txtCity.text = current.location.city
 
         holder.txtAccept.setOnClickListener {
             if(holder.txtAccept.text == "Accept") {

@@ -3,6 +3,7 @@ package com.example.android.matchescarddemo.overview
 import android.app.DatePickerDialog
 import android.content.Context
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.view.*
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -44,6 +45,8 @@ class OverviewFragment : Fragment(), MatchesCardInterface {
 
         // Allows Data Binding to Observe LiveData with the lifecycle of this Fragment
         binding.setLifecycleOwner(this)
+
+        binding.githubLinkText.movementMethod = LinkMovementMethod.getInstance()
 
         // Giving the binding access to the OverviewViewModel
         binding.viewModel = viewModel

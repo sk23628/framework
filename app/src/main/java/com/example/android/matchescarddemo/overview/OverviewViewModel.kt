@@ -58,23 +58,6 @@ class OverviewViewModel(application: Application) : AndroidViewModel(application
 
     }
 
-/*    fun getMarsRealEstateProperties(from_date : String, to_date : String, country : String) {
-
-        coroutineScope.launch {
-            var getPropertiesDeferred = CovidApi.retrofitService.getProperties(country, from_date, to_date)
-
-            try {
-                _status.value = CovidApiStatus.LOADING
-                var listResult = getPropertiesDeferred.await()
-                _status.value = CovidApiStatus.DONE
-                _properties.value = listResult
-            } catch (e: Exception) {
-                _status.value = CovidApiStatus.ERROR
-                _properties.value = ArrayList()
-            }
-        }
-
-    }*/
 
     fun getRandomUsersForMatchesCards() {
 
@@ -97,14 +80,11 @@ class OverviewViewModel(application: Application) : AndroidViewModel(application
     }
 
     fun insertData(responseValue: LiveData<RandomUser>) = coroutineScopeRoom.launch {
-//        repository.insert(word)
         responseValue.value?.results?.let { randomUserRepository.insert(it) }
     }
 
     fun updateUser(userId: Int, userEmail: String, userStatus: String) = coroutineScopeRoom.launch {
-//        repository.insert(word)
        randomUserRepository.update(userId, userEmail, userStatus)
-
     }
 
 

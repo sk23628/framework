@@ -9,7 +9,7 @@ import com.example.android.matchescarddemo.data.Result
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
-@Database(entities = [Result::class], version = 4, exportSchema = false)
+@Database(entities = [Result::class], version = 6, exportSchema = false)
 abstract class RandomUserDatabase : RoomDatabase() {
 
 //    abstract val randomUserActionDAO: RandomUserActionDAO
@@ -51,7 +51,7 @@ abstract class RandomUserDatabase : RoomDatabase() {
                 val instance = Room.databaseBuilder(
                         context.applicationContext,
                         RandomUserDatabase::class.java,
-                        "word_database"
+                        "random_user_database"
                 )
                         .addCallback(UserDatabaseCallback(scope))
                         .fallbackToDestructiveMigration()

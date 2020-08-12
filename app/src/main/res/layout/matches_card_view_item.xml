@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -14,14 +15,15 @@
         android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
-            android:layout_width="380dp"
+            android:layout_width="340dp"
             android:layout_height="500dp"
             android:id="@+id/card_view"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_margin="12dp"
-            app:cardCornerRadius="4dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
             android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -85,6 +87,22 @@
                         app:layout_constraintTop_toBottomOf="@+id/user_name"
                         app:layout_constraintVertical_bias="0.1"
                         tools:text="26 yrs, " />
+
+                    <TextView
+                        android:id="@+id/user_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@{randomUser.location.city}"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp"
+                        app:layout_constraintLeft_toRightOf="@+id/user_age"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/user_name"
+                        app:layout_constraintVertical_bias="0.1"
+                        app:layout_constraintHorizontal_bias="0.8"
+                        />
 
                     <View
                         android:id="@+id/divider"

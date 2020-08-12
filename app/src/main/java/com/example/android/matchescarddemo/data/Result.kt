@@ -27,7 +27,11 @@ data class Result(
     var email: String,
 
     @ColumnInfo(name = "random_user_status")
-    var userStatus : String = "available"
+    var userStatus : String = "available",
+
+    @Embedded(prefix = "random_user_")
+    @Json(name = "location")
+    val location: Location
 
 
 ){

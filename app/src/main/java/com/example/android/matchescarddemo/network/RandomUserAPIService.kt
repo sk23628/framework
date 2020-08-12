@@ -22,13 +22,6 @@ private val retrofit = Retrofit.Builder()
         .baseUrl(BASE_URL)
         .build()
 
-/*interface CovidApiService {
-
-    @GET("total/country/{country}")
-    fun getProperties(@Path("country") country : String, @Query("from") from_dt : String, @Query("to") to_dt : String):
-            Deferred<List<Covid19Record>>
-}*/
-
 interface RandomUserAPIService {
     @GET("api/")
     fun getUsers(@Query("results") results : Int):
