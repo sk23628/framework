@@ -26,29 +26,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/data/Location.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/data/Location.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/data/Result.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/data/Result.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/database/RandomUserDatabase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/database/RandomUserDatabase.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/network/Covid19Record.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/network/RandomUserAPIService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/network/RandomUserAPIService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/DailyNumbersAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/MatchesCardRecyclerViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/MatchesCardRecyclerViewAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/OverviewFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/OverviewFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/OverviewViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/OverviewViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/BindingAdapters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/BindingAdapters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_broken_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_for_sale_outline.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_overview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_overview.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/grid_view_item.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/matches_card_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/matches_card_view_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/overflow_menu.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="J6AAGF00W436AEA" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_22" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -370,6 +368,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="253" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1597144518853" />
+    <state x="436" y="98" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597255477428">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="436" y="98" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1597255477428" />
     <state x="349" y="159" key="AndroidCreateResourceFileDialog" timestamp="1597053731349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -390,38 +392,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="109" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595589441546" />
-    <state width="1466" height="239" key="GridCell.Tab.0.bottom" timestamp="1597249584531">
+    <state width="1466" height="307" key="GridCell.Tab.0.bottom" timestamp="1597256778762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597249584531" />
-    <state width="1466" height="239" key="GridCell.Tab.0.center" timestamp="1597249584531">
+    <state width="1466" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597256778762" />
+    <state width="1466" height="307" key="GridCell.Tab.0.center" timestamp="1597256778762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597249584531" />
-    <state width="1466" height="239" key="GridCell.Tab.0.left" timestamp="1597249584531">
+    <state width="1466" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597256778762" />
+    <state width="1466" height="307" key="GridCell.Tab.0.left" timestamp="1597256778762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597249584531" />
-    <state width="1466" height="239" key="GridCell.Tab.0.right" timestamp="1597249584531">
+    <state width="1466" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597256778762" />
+    <state width="1466" height="307" key="GridCell.Tab.0.right" timestamp="1597256778762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597249584531" />
-    <state width="1466" height="239" key="GridCell.Tab.1.bottom" timestamp="1597249599887">
+    <state width="1466" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597256778762" />
+    <state width="1466" height="239" key="GridCell.Tab.1.bottom" timestamp="1597250333352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597249599887" />
-    <state width="1466" height="239" key="GridCell.Tab.1.center" timestamp="1597249599887">
+    <state width="1466" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597250333352" />
+    <state width="1466" height="239" key="GridCell.Tab.1.center" timestamp="1597250333352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597249599887" />
-    <state width="1466" height="239" key="GridCell.Tab.1.left" timestamp="1597249599887">
+    <state width="1466" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1597250333352" />
+    <state width="1466" height="239" key="GridCell.Tab.1.left" timestamp="1597250333352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597249599887" />
-    <state width="1466" height="239" key="GridCell.Tab.1.right" timestamp="1597249599887">
+    <state width="1466" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1597250333352" />
+    <state width="1466" height="239" key="GridCell.Tab.1.right" timestamp="1597250333352">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1466" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597249599887" />
+    <state width="1466" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1597250333352" />
     <state x="146" y="0" key="SettingsEditor" timestamp="1597051723229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -438,10 +440,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1597222989775" />
-    <state x="372" y="71" width="938" height="682" key="find.popup" timestamp="1597244992919">
+    <state x="372" y="71" width="938" height="682" key="find.popup" timestamp="1597255599384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="71" width="938" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597244992919" />
+    <state x="372" y="71" width="938" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597255599384" />
     <state x="342" y="185" key="run.anything.popup" timestamp="1597134243622">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -457,7 +459,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/BindingAdapters.kt</url>
-          <line>17</line>
+          <line>16</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
@@ -495,7 +497,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/android/matchescarddemo/overview/MatchesCardRecyclerViewAdapter.kt</url>
-          <line>56</line>
+          <line>61</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">

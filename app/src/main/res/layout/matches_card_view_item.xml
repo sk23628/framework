@@ -10,13 +10,15 @@
             type="com.example.android.matchescarddemo.data.Result" />
     </data>
 
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <androidx.cardview.widget.CardView
             android:layout_width="340dp"
-            android:layout_height="500dp"
+            android:layout_height="490dp"
             android:id="@+id/card_view"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"

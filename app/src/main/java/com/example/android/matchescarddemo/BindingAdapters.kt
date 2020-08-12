@@ -10,7 +10,6 @@ import com.example.android.matchescarddemo.data.Result
 import com.example.android.matchescarddemo.overview.MatchesCardAdapter
 import com.example.android.matchescarddemo.overview.RandomUserApiStatus
 import com.facebook.drawee.view.SimpleDraweeView
-import com.squareup.picasso.Picasso
 
 @BindingAdapter("listDate")
 fun bindRecyclerView(recyclerView : RecyclerView, data : List<Result>?){
@@ -37,8 +36,8 @@ fun bindStatus(statusImageView: ImageView,
         }
 
         RandomUserApiStatus.ERROR -> {
-            statusImageView.visibility = View.VISIBLE
-            statusImageView.setImageResource(R.drawable.ic_connection_error)
+//            statusImageView.visibility = View.VISIBLE
+//            statusImageView.setImageResource(R.drawable.ic_connection_error)
         }
 
         RandomUserApiStatus.DONE -> {
