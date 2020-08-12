@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Covidometer.iml" filepath="$PROJECT_DIR$/Covidometer.iml" group="Covidometer" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Covidometer/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="matches_card_demo/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/matches_card_demo.iml" filepath="$PROJECT_DIR$/.idea/modules/matches_card_demo.iml" group="matches_card_demo" />
     </modules>
   </component>
 </project>

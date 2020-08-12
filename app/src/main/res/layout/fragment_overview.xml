@@ -7,7 +7,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.android.covidometer.overview.OverviewViewModel" />
+            type="com.example.android.matchescarddemo.overview.OverviewViewModel" />
     </data>
 
 
@@ -15,58 +15,47 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.android.covidometer.MainActivity">
+        tools:context="com.example.android.matchescarddemo.MainActivity">
 
 
-
-        <TextView
-            android:id="@+id/from_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="From Date"
-            android:padding="12dp"
-            app:layout_constraintHorizontal_bias="0.01"
+        <ImageView
+            android:layout_width="180dp"
+            android:id="@+id/logo"
+            android:background="@drawable/shaadi_logo"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="70dp"/>
 
         <TextView
-            android:id="@+id/to_date"
+            android:id="@+id/desc_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="To Date"
-            android:padding="12dp"
-            app:layout_constraintBottom_toBottomOf="@+id/from_date"
-            app:layout_constraintHorizontal_bias="0.2"
-            app:layout_constraintLeft_toRightOf="@+id/from_date"
-            app:layout_constraintRight_toLeftOf="@+id/list_countries"
-            app:layout_constraintTop_toTopOf="@+id/from_date" />
-
-        <Spinner
-            android:id="@+id/list_countries"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="100dp"
-            android:padding="12dp"
-            app:layout_constraintBottom_toBottomOf="@+id/to_date"
-            app:layout_constraintHorizontal_bias="0.2"
-            app:layout_constraintLeft_toRightOf="@+id/to_date"
+            android:text="Kotlin MatchCards (MVVM + Room + Retrofit + Coroutines)"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:fontFamily="@font/robotomedium"
+            app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/to_date" />
+            app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+
+<!--        app:listDate="@{viewModel.allUsers}"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:padding="6dp"-->
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/photos_grid"
+            android:id="@+id/card_recycler_view"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:clipToPadding="false"
-            android:padding="6dp"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/from_date"
-            app:listDate="@{viewModel.properties}"
-            tools:listitem="@layout/grid_view_item" />
+            app:layout_constraintTop_toBottomOf="@+id/desc_label"
+            tools:listitem="@layout/matches_card_view_item" />
 
         <!--        app:spanCount="2"-->
         <!--        tools:itemCount="16"-->

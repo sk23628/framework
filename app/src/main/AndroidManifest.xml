@@ -17,7 +17,7 @@
   ~
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.covidometer">
+    package="com.example.android.matchescarddemo">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -29,7 +29,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.covidometer.MainActivity">
+        <activity android:name="com.example.android.matchescarddemo.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

@@ -7,7 +7,7 @@
     <data>
         <variable
             name="property"
-            type="com.example.android.covidometer.network.Covid19Record" />
+            type="com.example.android.matchescarddemo.network.Covid19Record" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
