@@ -42,9 +42,7 @@ class OverviewViewModel(application: Application) : AndroidViewModel(application
 
     private val randomUserRepository: RandomUserRepository
 
-    /**
-     * Call getMarsRealEstateProperties() on init so we can display status immediately.
-     */
+
 
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope( viewModelJob + Dispatchers.Main)

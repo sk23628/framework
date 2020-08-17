@@ -18,9 +18,7 @@ import com.facebook.drawee.backends.pipeline.Fresco
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * This fragment shows the the status of the Mars real-estate web services transaction.
- */
+
 
 class OverviewFragment : Fragment(), MatchesCardInterface {
 

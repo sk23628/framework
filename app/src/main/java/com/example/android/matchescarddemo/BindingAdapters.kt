@@ -25,7 +25,7 @@ fun loadImage(view: SimpleDraweeView, url: String) {
 }
 
 
-@BindingAdapter("marsApiStatus")
+@BindingAdapter("userApiStatus")
 fun bindStatus(statusImageView: ImageView,
                status: RandomUserApiStatus?) {
 
