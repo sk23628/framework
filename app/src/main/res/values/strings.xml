@@ -19,4 +19,6 @@
 <resources>
     <string name="app_name">MatchesCardDemo </string>
     <string name="link"><a href="https://github.com/sk23628/kotlin_match_cards">Click here for Github Repository</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

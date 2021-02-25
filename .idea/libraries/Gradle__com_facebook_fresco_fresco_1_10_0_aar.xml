@@ -1,11 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.facebook.fresco:fresco:1.10.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/4f4ea5fcc43f5e0466b113e87095d5d4/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/a9b46147bbcb1d534e4a12a0f26f6e1e/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/4f4ea5fcc43f5e0466b113e87095d5d4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/4f4ea5fcc43f5e0466b113e87095d5d4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/a9b46147bbcb1d534e4a12a0f26f6e1e/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/a9b46147bbcb1d534e4a12a0f26f6e1e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-fresco-1.10.0.aar/a9b46147bbcb1d534e4a12a0f26f6e1e/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

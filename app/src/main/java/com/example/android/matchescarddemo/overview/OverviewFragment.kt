@@ -13,12 +13,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.PagerSnapHelper
+import com.example.android.matchescarddemo.data.Result
 import com.example.android.matchescarddemo.databinding.FragmentOverviewBinding
 import com.facebook.drawee.backends.pipeline.Fresco
 import java.text.SimpleDateFormat
 import java.util.*
-
-
 
 class OverviewFragment : Fragment(), MatchesCardInterface {
 
@@ -91,7 +90,11 @@ class OverviewFragment : Fragment(), MatchesCardInterface {
         viewModel.updateUser(userId, userEmail, userStatus)
     }
 
-    override fun onAttach(context: Context?) {
+    override fun showProfileDetails(result: Result) {
+        TODO("Not yet implemented")
+    }
+
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         mContext = context
     }

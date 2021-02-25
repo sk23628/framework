@@ -1,7 +1,7 @@
 
 package com.example.android.matchescarddemo.overview
 
-import android.app.Application
+import  android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -41,9 +41,6 @@ class OverviewViewModel(application: Application) : AndroidViewModel(application
         get() = _response
 
     private val randomUserRepository: RandomUserRepository
-
-
-
     private var viewModelJob = Job()
     private val coroutineScope = CoroutineScope( viewModelJob + Dispatchers.Main)
     private val coroutineScopeRoom = CoroutineScope(viewModelJob + Dispatchers.IO)
